@@ -31,7 +31,7 @@ h4,
 h5,
 h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  /*text-transform: uppercase*/;
   font-weight: 700;
   text-align: center;
 
@@ -74,14 +74,14 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-/*  background: #18BC9C;*/
   color: white;
-  background-image: url("/img/sky1.jpeg")
+  background-image: url("/img/lakeview.jpeg")
  }
 
 header .container {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 50px;
+  
 }
 header img {
   display: block;
@@ -90,12 +90,12 @@ header img {
 header .intro-text .name {
   display: block;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
   font-weight: 700;
   font-size: 2em;
 }
 header .intro-text .skills {
-  font-size: 1.25em;
+  font-size: 10px;
   font-weight: 300;
 }
 @media (min-width: 768px) {
